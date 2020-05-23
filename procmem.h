@@ -2,6 +2,7 @@
 #define _PROC_MEM_H_
 #include <unistd.h>
 
+//refine the struct
 struct proc_segs {
 	unsigned long mssv;
 	unsigned long start_code;
